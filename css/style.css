@@ -1,0 +1,55 @@
+.button4{display: inline-block;cursor: pointer; font-size:14px;text-decoration:none;padding:10px 20px; color:#354251;background:#ffff0;border-radius:0px;border:2px solid #354251;}
+.button4:hover{background:#354251;color:#ffffff;border:2px solid #354251;transition: all 0.2s ease;}
+
+.blok{
+		width: 100%;
+		max-width: 1140px;
+		margin: 0 auto;
+}
+
+body {
+	font-family: 'PT Serif', serif;
+	font-size: 18px;
+}
+p[class="top"]{
+	border-bottom: 2px solid grey ;
+	border-top: 2px solid grey ;
+	border-left: 2px solid grey ;
+	border-right: 2px solid grey ;
+     padding-bottom:4px ; 
+}
+p[class="top"]:after{
+   content: "  :)";
+}
+p::selection{
+	background: #A9A9A9;
+}
+h1::selection{
+	background: #A9A9A9;
+}
+h2::selection{
+	background: #A9A9A9;
+}
+h1[class="uyuu"]{
+	text-align: center;
+}
+.pervozakaz{
+	display:inline-block;
+	width: 410px;
+	height: 270px;
+	border-bottom: 2px solid grey ;
+	border-top: 2px solid grey ;
+	border-left: 2px solid grey ;
+	border-right: 2px solid grey ;
+}
+.vtorozakaz{
+	display:inline-block;
+   width: 410px;
+	height: 270px;
+	margin-top: 50px;
+	margin-left: 305px;
+	border-bottom: 2px solid grey ;
+	border-top: 2px solid grey ;
+	border-left: 2px solid grey ;
+	border-right: 2px solid grey ;
+}
